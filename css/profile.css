@@ -1,7 +1,14 @@
+body {
+    background-color: #FAFAF5;
+}
 
 .sidebar {
     background-color: #383d40;
     padding-bottom: 10px;
+}
+
+.top-margin {
+    margin-top:10px;
 }
 
 @media (min-width: 992px) {
@@ -13,6 +20,10 @@
     display: block;
     overflow-x: hidden;
     overflow-y: auto;
+  }
+
+  .top-margin {
+    margin-top:90px;
   }
 }
 
